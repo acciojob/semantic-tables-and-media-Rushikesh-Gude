@@ -2,39 +2,36 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 50%; /* Adjusted width for better presentation */
-    margin: 20px 0; /* Add space above/below the table */
+    width: 50%;
+    margin: 20px 0; 
 }
 
 td, th {
-    border: 1px solid #dddddd; /* Light gray border */
+    border: 1px solid #dddddd; 
     text-align: left;
     padding: 8px;
 }
 
-/* --- Color-Specific Styles (Matching the Size Chart) --- */
+/* --- Color-Specific Styles --- */
 
 /* Styles for the Header Row (th) */
 th {
-    /* Dark reddish-brown color */
-    background-color: #A52A2A; 
-    color: white; /* White text for contrast */
+    background-color: #A52A2A; /* Dark reddish-brown */
+    color: white; 
 }
 
 /* Styles for the First Column (td:first-child) */
 td:first-child {
-    /* Lighter, rosy brown color */
-    background-color: #BC8F8F;
-    color: white; /* White text for contrast */
+    background-color: #BC8F8F; /* Rosy brown */
+    color: white; 
 }
 
 /* --- Media List Styles --- */
 
-/* Basic styling for the list items to match the output image */
+/* Basic styling for the list items */
 li {
-    /* Remove list numbers/bullets if necessary, though <ol> usually handles numbers */
     list-style: none; 
-    margin-bottom: 20px; /* Space out the media elements */
+    margin-bottom: 20px; 
 }
 
 /* Styling for the image element */
