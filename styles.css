@@ -1,44 +1,43 @@
-
-/* Your CSS Code here. *//* --- Base Table Structure Styles --- */
+/* --- Table Styles (General) --- */
 table {
-  /* Ensures borders are single lines */
-  border-collapse: collapse;
-  width: 100%;
-  font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%; /* Adjusted width for better presentation */
+    margin: 20px 0; /* Add space above/below the table */
 }
 
-/* Styles applied to all header and data cells */
-th, td {
-  border: 1px solid #dddddd; /* Light gray border */
-  text-align: left;
-  padding: 8px;
+td, th {
+    border: 1px solid #dddddd; /* Light gray border */
+    text-align: left;
+    padding: 8px;
 }
 
-/* --- Color Styles to match the Reference Image --- */
+/* --- Color-Specific Styles (Matching the Size Chart) --- */
 
-/* 1. Styles for the Table Header (th) - The dark reddish-brown row */
+/* Styles for the Header Row (th) */
 th {
-  /* Dark Reddish-Brown color */
-  background-color: #A52A2A;
-  /* Ensure text is white for contrast */
-  color: white;
-  /* Make the header text bold (optional, but often preferred) */
-  font-weight: bold;
+    /* Dark reddish-brown color */
+    background-color: #A52A2A; 
+    color: white; /* White text for contrast */
 }
 
-/* 2. Styles for the First Column (td:first-child) - The rosy brown column */
+/* Styles for the First Column (td:first-child) */
 td:first-child {
-  /* Rosy Brown color */
-  background-color: #BC8F8F;
-  /* Ensure text is white for contrast */
-  color: white;
-  /* Make the row labels bold for emphasis */
-  font-weight: bold;
+    /* Lighter, rosy brown color */
+    background-color: #BC8F8F;
+    color: white; /* White text for contrast */
 }
 
-/* 3. Styles for the Data Cells (other td elements) - The white background */
-/* You don't strictly need this, but it ensures these cells are white if other styles conflict */
-td:not(:first-child) {
-    background-color: white;
-    color: black;
+/* --- Media List Styles --- */
+
+/* Basic styling for the list items to match the output image */
+li {
+    /* Remove list numbers/bullets if necessary, though <ol> usually handles numbers */
+    list-style: none; 
+    margin-bottom: 20px; /* Space out the media elements */
+}
+
+/* Styling for the image element */
+img {
+    display: block;
 }
